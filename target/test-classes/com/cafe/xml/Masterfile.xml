@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuites>
+	<TestSuite>
+		<Name>AdminLogin</Name>
+		<RunMode>yes</RunMode>
+	</TestSuite>
+	
+	<TestSuite>
+		<Name>Admin_AddAdminUser</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+	<TestSuite>
+		<Name>Admin_School</Name>
+		<RunMode>yes</RunMode>
+	</TestSuite>
+	<TestSuite>
+		<Name>Admin_Course</Name>
+		<RunMode>yes</RunMode>
+	</TestSuite>
+	<TestSuite>
+		<Name>Admin_BigIdeas</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+	
+	<TestSuite>
+		<Name>Admin_Sections</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+	<TestSuite>
+		<Name>Admin_Content</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+	
+	<TestSuite>
+		<Name>Admin_User</Name>
+		<RunMode>yes</RunMode>
+	</TestSuite>
+	<TestSuite>
+		<Name>Admin_Groups</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+	
+	<TestSuite>
+		<Name>Admin_Announcements</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+	<TestSuite>
+		<Name>Admin_Events</Name>
+		<RunMode>no</RunMode>
+	</TestSuite>
+</TestSuites>

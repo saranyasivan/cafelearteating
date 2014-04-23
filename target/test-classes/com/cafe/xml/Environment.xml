@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environment>
+<URL>http://54.83.39.177/admin</URL>
+ 
+<BrowserList>
+	<Browser>chrome</Browser>
+	 <DriverPath></DriverPath>
+	<Execute>no</Execute>
+</BrowserList>
+
+<BrowserList>
+	<Browser>firefox</Browser>
+	<DriverPath></DriverPath>
+	<Execute>yes</Execute>
+</BrowserList>
+<BrowserList>
+	<Browser>googlechrome</Browser>
+	 <DriverPath></DriverPath>
+	<Execute>no</Execute>
+</BrowserList>
+<BrowserList>
+	<Browser>IE</Browser>
+	<DriverPath></DriverPath>
+	<Execute>no</Execute>
+</BrowserList>
+</Environment>

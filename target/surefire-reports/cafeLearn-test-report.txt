@@ -1,0 +1,34 @@
+--------------------------------
+SUMMARY TEST REPORT
+--------------------------------
+generated on:2014/04/12 13:18:21
+--------------------------------
+Test:AdminLogin(firefox) - passed
+--------------------------------------------
+Test:Admin_School(firefox) - Failed!! at:Step: Admin_Schools_Edit_from_Display 
+Action:Wait 
+Xpath: 
+Data:
+Test:Admin_School(firefox) - Failed!! Exception:
+com.thoughtworks.selenium.SeleniumException: ERROR: Command timed out
+-------------------------------------------- 
+--------------------------------------------
+Test:Admin_Course(firefox) - Failed!! at:Step: SetUrl 
+Action: 
+Xpath:http://54.83.39.177/admin 
+Data:
+Test:Admin_Course(firefox) - Failed!! Exception:
+java.lang.AssertionError: error opening browser:
+-------------------------------------------- 
+--------------------------------------------
+Test:Admin_User(firefox) - Failed!! at:Step: SetUrl 
+Action: 
+Xpath:http://54.83.39.177/admin 
+Data:
+Test:Admin_User(firefox) - Failed!! Exception:
+java.lang.AssertionError: error opening browser:
+-------------------------------------------- 
+Test Group:Command line test- Passed:1 Failed:3 Skipped:0
+--------------------------------
+--------------------------------
+TOTALS: Passed:1 Failed:3 Skipped: 0

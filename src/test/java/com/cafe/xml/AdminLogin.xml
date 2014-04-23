@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCases>
+	<TestCase id="AdminLogin">
+	
+		<TestStep>
+			<Action>Input</Action>
+			<Xpath>.//*[@id='admin_user_email']</Xpath>
+			<Data>ram@sooryen.com</Data>
+			<Additional></Additional>
+		</TestStep>
+		<TestStep>
+			<Action>Input</Action>
+			<Xpath>.//*[@id='admin_user_password']</Xpath>
+			<Data>cafe2014</Data>
+			<Additional></Additional>
+		</TestStep>
+		<TestStep>
+			<Action>Click</Action>
+			<Xpath>.//*[@id='admin_user_submit_action']/input</Xpath>
+			<Data></Data>
+			<Additional></Additional>
+		</TestStep>
+		<TestStep>
+			<Action>Wait</Action>
+			<Xpath></Xpath>
+			<Data></Data>
+			<Additional></Additional>
+		</TestStep>
+		<TestStep>
+			<Action>VerifyTitle</Action>
+			<Xpath></Xpath>
+			<Data>Dashboard | Cafelearn</Data>
+			<Additional></Additional>
+		</TestStep>
+		
+	</TestCase>
+</TestCases>
